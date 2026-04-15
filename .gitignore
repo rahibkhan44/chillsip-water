@@ -1,0 +1,62 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# Testing
+/coverage
+
+# Next.js
+/.next/
+/out/
+
+# Production
+/build
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Env files
+.env*
+!.env.example
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude
+.claude/
+
+# Original reference screenshots (kept locally, not deployed)
+/Screenshot_1.png
+/Screenshot_2.png
+/Screenshot_3.png
+/Screenshot_4.png
+/Screenshot_5.png
+/Screenshot_6.png
+/Screenshot_7.png
+/Screenshot_8.png
+/Screenshot_9.png
+/Screenshot_10.png
+/Screenshot_11.png
+/Screenshot_12.png
+/Screenshot_13.png
