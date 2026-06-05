@@ -121,6 +121,9 @@ export const metadata: Metadata = {
     address: true,
     telephone: true,
   },
+  verification: {
+    google: "eYStEl2n6ViOLSQZI6tAzC0_6RMjuWCDwKrearaDJ9w",
+  },
   other: {
     "geo.region": "PK-KP",
     "geo.placename": "Peshawar",
