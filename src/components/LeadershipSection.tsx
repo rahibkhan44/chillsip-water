@@ -47,7 +47,7 @@ export default function LeadershipSection() {
           >
             <div className="relative w-full max-w-[480px] mx-auto lg:mx-0 aspect-[4/5] overflow-hidden">
               <Image
-                src="/founder.jpeg"
+                src="/founder-459x575.webp"
                 alt="Ahmad Alam, Founder & Chief Executive Officer of CHILLSIP Mineral Water"
                 fill
                 className="object-cover object-center"
