@@ -29,7 +29,7 @@ export default function HeroSection() {
       <div className="absolute inset-0">
         <Image
           src="/Screenshot_1.png"
-          alt="ChillSip hero background"
+          alt="CHILLSIP premium mineral water bottle in a cool blue water splash — pure, crisp and refreshing hydration from Peshawar, Pakistan"
           fill
           className="object-cover object-center"
           priority
@@ -153,7 +153,7 @@ export default function HeroSection() {
             <div className="absolute inset-0 rounded-full bg-[#0099FF]/20 blur-3xl scale-90" />
             <Image
               src="/Screenshot_12.png"
-              alt="ChillSip Mineral Water bottle"
+              alt="CHILLSIP Mineral Water bottle — natural minerals, zero additives, sourced from Peshawar Pakistan"
               width={400}
               height={500}
               className="relative z-10 drop-float object-contain w-full"

@@ -2,11 +2,10 @@ import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
 import AboutSection from "@/components/AboutSection";
 import ProductsSection from "@/components/ProductsSection";
-import WhyChillsip from "@/components/WhyChillsip";
 import BenefitsSection from "@/components/BenefitsSection";
-import StatsSection from "@/components/StatsSection";
+import LeadershipSection from "@/components/LeadershipSection";
 import CsrSection from "@/components/CsrSection";
-import GallerySection from "@/components/GallerySection";
+import StockistsSection from "@/components/StockistsSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
@@ -19,11 +18,10 @@ export default function Home() {
       <HeroSection />
       <AboutSection />
       <ProductsSection />
-      <WhyChillsip />
       <BenefitsSection />
-      <StatsSection />
+      <LeadershipSection />
       <CsrSection />
-      <GallerySection />
+      <StockistsSection />
       <TestimonialsSection />
       <ContactSection />
       <Footer />

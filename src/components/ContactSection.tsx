@@ -53,7 +53,7 @@ const infoCards = [
 
 export default function ContactSection() {
   return (
-    <section id="contact" className="py-20 lg:py-28 bg-white">
+    <section id="contact" className="py-14 lg:py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <motion.div
@@ -61,17 +61,17 @@ export default function ContactSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.7 }}
-          className="text-center mb-16"
+          className="text-center mb-10"
         >
-          <span className="inline-block text-[#0099FF] font-semibold text-sm tracking-widest uppercase mb-3">
+          <span className="inline-block text-[#0099FF] font-semibold text-xs tracking-widest uppercase mb-2">
             Order Now
           </span>
-          <h2 className="text-4xl sm:text-5xl font-black text-[#001A3A] mb-4">
+          <h2 className="text-3xl sm:text-4xl font-black text-[#001A3A] mb-3">
             Get Your <span className="text-[#0099FF]">CHILLSIP</span> Today
           </h2>
-          <p className="text-gray-500 max-w-xl mx-auto text-lg">
-            Ordering is simple — just tap the button below and send us a WhatsApp message.
-            We will confirm your order and deliver right to your door.
+          <p className="text-gray-500 max-w-xl mx-auto text-sm">
+            Ordering is simple — tap the button below and send us a WhatsApp message.
+            We will confirm and deliver right to your door.
           </p>
         </motion.div>
 
@@ -81,54 +81,53 @@ export default function ContactSection() {
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.7, type: "spring" }}
-          className="flex justify-center mb-16"
+          className="flex justify-center mb-10"
         >
-          <div className="bg-gradient-to-br from-[#001A3A] to-[#002966] rounded-3xl p-10 sm:p-14 text-center max-w-xl w-full shadow-2xl shadow-blue-900/30">
-            <div className="w-20 h-20 bg-[#25D366] rounded-full flex items-center justify-center mx-auto mb-6 shadow-xl shadow-green-500/30">
-              <MessageCircle className="w-10 h-10 text-white" />
+          <div className="bg-gradient-to-br from-[#001A3A] to-[#002966] rounded-2xl p-6 sm:p-10 text-center max-w-lg w-full shadow-xl shadow-blue-900/30">
+            <div className="w-14 h-14 bg-[#25D366] rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg shadow-green-500/30">
+              <MessageCircle className="w-7 h-7 text-white" />
             </div>
-            <h3 className="text-2xl sm:text-3xl font-black text-white mb-3">
+            <h3 className="text-xl sm:text-2xl font-black text-white mb-2">
               Order via WhatsApp
             </h3>
-            <p className="text-white/60 mb-8 leading-relaxed">
+            <p className="text-white/60 mb-5 leading-relaxed text-sm">
               Send us your name, address, and how many bottles you need.
-              We will confirm your order and get it delivered fast!
             </p>
             <Button
               onClick={() => window.open(WA_LINK, "_blank")}
-              className="bg-[#25D366] hover:bg-[#20BC5C] text-white font-black text-lg px-10 py-4 rounded-full shadow-xl shadow-green-600/30 hover:scale-105 hover:shadow-green-500/50 transition-all duration-300 w-full sm:w-auto"
+              className="bg-[#25D366] hover:bg-[#20BC5C] text-white font-black px-8 py-3 rounded-full shadow-lg shadow-green-600/30 hover:scale-105 transition-all duration-300 w-full sm:w-auto"
             >
-              <MessageCircle className="w-5 h-5 mr-2" />
+              <MessageCircle className="w-4 h-4 mr-2" />
               Chat &amp; Order on WhatsApp
             </Button>
-            <p className="text-white/30 text-xs mt-4">
+            <p className="text-white/30 text-[10px] mt-3">
               Tap to open WhatsApp — we reply within minutes
             </p>
           </div>
         </motion.div>
 
         {/* Info cards grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4">
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
           {infoCards.map((item, i) => (
             <motion.div
               key={item.title}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ delay: i * 0.08 }}
+              transition={{ delay: i * 0.06 }}
             >
               <Card
-                className={`p-5 rounded-2xl border border-[#0099FF]/10 shadow-sm hover:shadow-lg hover:border-[#0099FF]/30 transition-all duration-300 h-full ${item.action ? "cursor-pointer hover:-translate-y-1" : ""}`}
+                className={`p-4 rounded-xl border border-[#0099FF]/10 shadow-sm hover:shadow-md hover:border-[#0099FF]/30 transition-all duration-300 h-full ${item.action ? "cursor-pointer hover:-translate-y-0.5" : ""}`}
                 onClick={item.action}
               >
                 <div
-                  className={`w-11 h-11 rounded-xl bg-gradient-to-br ${item.bg} flex items-center justify-center mb-4 shadow-md`}
+                  className={`w-9 h-9 rounded-lg bg-gradient-to-br ${item.bg} flex items-center justify-center mb-3 shadow-sm`}
                 >
-                  <item.icon className="w-5 h-5 text-white" />
+                  <item.icon className="w-4 h-4 text-white" />
                 </div>
-                <p className="text-gray-400 text-xs font-medium mb-1">{item.title}</p>
-                <p className="font-black text-[#001A3A] text-sm leading-snug">{item.value}</p>
-                <p className="text-gray-400 text-xs mt-1">{item.sub}</p>
+                <p className="text-gray-400 text-[10px] font-medium mb-0.5">{item.title}</p>
+                <p className="font-black text-[#001A3A] text-xs leading-snug">{item.value}</p>
+                <p className="text-gray-400 text-[10px] mt-0.5">{item.sub}</p>
               </Card>
             </motion.div>
           ))}

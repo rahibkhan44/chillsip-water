@@ -61,7 +61,7 @@ export default function TestimonialsSection() {
   const t = testimonials[current];
 
   return (
-    <section className="py-20 lg:py-28 bg-[#001A3A] relative overflow-hidden">
+    <section className="py-14 lg:py-20 bg-[#001A3A] relative overflow-hidden">
       {/* Background decoration */}
       <div className="absolute inset-0 pointer-events-none overflow-hidden">
         <div className="absolute top-0 left-1/4 w-96 h-96 bg-[#0099FF]/10 rounded-full blur-3xl" />
@@ -75,12 +75,12 @@ export default function TestimonialsSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.7 }}
-          className="text-center mb-14"
+          className="text-center mb-10"
         >
-          <span className="inline-block text-[#00D4FF] font-semibold text-sm tracking-widest uppercase mb-3">
+          <span className="inline-block text-[#00D4FF] font-semibold text-xs tracking-widest uppercase mb-2">
             Testimonials
           </span>
-          <h2 className="text-4xl sm:text-5xl font-black text-white">
+          <h2 className="text-3xl sm:text-4xl font-black text-white">
             What Our Customers Say
           </h2>
         </motion.div>
@@ -94,33 +94,33 @@ export default function TestimonialsSection() {
               animate={{ opacity: 1, x: 0 }}
               exit={{ opacity: 0, x: direction * -60 }}
               transition={{ duration: 0.45 }}
-              className="glass-card rounded-3xl p-8 sm:p-12 text-center"
+              className="glass-card rounded-2xl p-6 sm:p-10 text-center"
             >
               {/* Quote icon */}
-              <Quote className="w-10 h-10 text-[#00D4FF]/40 mx-auto mb-6" />
+              <Quote className="w-8 h-8 text-[#00D4FF]/40 mx-auto mb-4" />
 
               {/* Stars */}
-              <div className="flex justify-center gap-1 mb-6">
+              <div className="flex justify-center gap-1 mb-4">
                 {Array.from({ length: t.rating }).map((_, i) => (
-                  <Star key={i} className="w-5 h-5 fill-yellow-400 text-yellow-400" />
+                  <Star key={i} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
                 ))}
               </div>
 
               {/* Text */}
-              <p className="text-white/85 text-lg sm:text-xl leading-relaxed mb-8 italic">
+              <p className="text-white/85 text-base sm:text-lg leading-relaxed mb-6 italic">
                 &ldquo;{t.text}&rdquo;
               </p>
 
               {/* Avatar + name */}
-              <div className="flex items-center justify-center gap-4">
+              <div className="flex items-center justify-center gap-3">
                 <div
-                  className={`w-12 h-12 rounded-full bg-gradient-to-br ${t.color} flex items-center justify-center text-white font-black text-sm`}
+                  className={`w-10 h-10 rounded-full bg-gradient-to-br ${t.color} flex items-center justify-center text-white font-black text-xs`}
                 >
                   {t.avatar}
                 </div>
                 <div className="text-left">
-                  <p className="text-white font-bold">{t.name}</p>
-                  <p className="text-[#00D4FF] text-sm">{t.city}</p>
+                  <p className="text-white font-bold text-sm">{t.name}</p>
+                  <p className="text-[#00D4FF] text-xs">{t.city}</p>
                 </div>
               </div>
             </motion.div>
