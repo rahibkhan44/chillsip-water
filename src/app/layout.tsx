@@ -83,15 +83,15 @@ export const metadata: Metadata = {
     alternateLocale: ["ur_PK"],
     url: SITE_URL,
     siteName: SITE_NAME,
-    title: "CHILLSIP Mineral Water | Feel the Chill",
+    title: "CHILLSIP Mineral Water | Pure Hydration from Peshawar, Pakistan",
     description:
-      "Pure mineral water from Peshawar, Pakistan. Crystal-clear, naturally rich in minerals. Order on WhatsApp.",
+      "Crystal-clear mineral water from Peshawar, naturally rich in calcium, magnesium and potassium. Zero additives. Order on WhatsApp for same-day delivery.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "CHILLSIP Mineral Water | Feel the Chill",
+    title: "CHILLSIP Mineral Water | Pure Hydration from Peshawar, Pakistan",
     description:
-      "Pure mineral water from Peshawar, Pakistan. Crystal-clear, naturally rich in minerals.",
+      "Crystal-clear mineral water from Peshawar. Naturally rich in minerals, zero additives. Order on WhatsApp for same-day delivery across Pakistan.",
     creator: "@chillsip",
     site: "@chillsip",
   },

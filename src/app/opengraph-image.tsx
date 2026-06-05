@@ -97,6 +97,27 @@ export default async function OpengraphImage() {
           Feel the Chill. Taste the Refreshment.
         </div>
 
+        {/* CTA Button */}
+        <div
+          style={{
+            display: "flex",
+            alignItems: "center",
+            gap: 14,
+            marginTop: 36,
+            padding: "18px 44px",
+            borderRadius: 999,
+            background: "linear-gradient(135deg, #25D366, #1EBE57)",
+            color: "white",
+            fontSize: 28,
+            fontWeight: 700,
+            letterSpacing: 1,
+            boxShadow: "0 12px 40px rgba(37, 211, 102, 0.45)",
+          }}
+        >
+          <span>Order on WhatsApp</span>
+          <span style={{ fontSize: 32 }}>→</span>
+        </div>
+
         {/* Bottom strip */}
         <div
           style={{
