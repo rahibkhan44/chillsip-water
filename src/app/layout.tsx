@@ -123,6 +123,9 @@ export const metadata: Metadata = {
   },
   verification: {
     google: "eYStEl2n6ViOLSQZI6tAzC0_6RMjuWCDwKrearaDJ9w",
+    other: {
+      "msvalidate.01": "FE847921E7BAD9558A7105B0FEDD2708",
+    },
   },
   other: {
     "geo.region": "PK-KP",
