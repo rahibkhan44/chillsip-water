@@ -15,7 +15,7 @@ const testimonials = [
   },
   {
     name: "Fatima Khan",
-    city: "Lahore",
+    city: "Islamabad",
     rating: 5,
     text: "I switched to CHILLSIP 6 months ago and honestly the quality is outstanding. You can feel the difference. It tastes pure and natural. My skin has even improved since I started drinking more water!",
     avatar: "FK",
@@ -23,7 +23,7 @@ const testimonials = [
   },
   {
     name: "Usman Tariq",
-    city: "Islamabad",
+    city: "Hayatabad",
     rating: 5,
     text: "As a fitness trainer I am very particular about hydration. CHILLSIP has the perfect mineral balance for before and after workouts. The fact that it is from Peshawar and supports local communities makes me love it even more.",
     avatar: "UT",
@@ -31,7 +31,7 @@ const testimonials = [
   },
   {
     name: "Zainab Malik",
-    city: "Karachi",
+    city: "Peshawar",
     rating: 5,
     text: "Ordered CHILLSIP through their website and the customer service was amazing. Water arrived quickly and the taste is incredible, so clean and refreshing. Will definitely order again!",
     avatar: "ZM",
