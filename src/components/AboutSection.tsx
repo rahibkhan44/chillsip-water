@@ -43,7 +43,7 @@ export default function AboutSection() {
               <div className="absolute -inset-4 rounded-3xl bg-gradient-to-br from-[#0099FF]/10 to-[#00D4FF]/10 -z-10" />
               <Image
                 src="/Screenshot_2.png"
-                alt="CHILLSIP mineral water bottle close-up — purified natural mineral water bottled in Peshawar, Pakistan"
+                alt="CHILLSIP mineral water bottle close-up, purified natural mineral water bottled in Peshawar, Pakistan"
                 width={480}
                 height={560}
                 className="rounded-3xl w-full object-cover shadow-2xl shadow-blue-200/60"
@@ -79,15 +79,14 @@ export default function AboutSection() {
               <span className="text-[#0099FF]">Trusted Across Pakistan.</span>
             </h2>
             <p className="text-gray-600 leading-relaxed mb-4">
-              CHILLSIP Mineral Water was born from a simple belief — that everyone
-              deserves water that is pure, crisp, and truly refreshing. Rooted in
-              the heart of Peshawar, we deliver nature&apos;s finest hydration to
-              every corner of Pakistan.
+              CHILLSIP started with a simple idea: everyone deserves water that
+              tastes clean, crisp and truly refreshing. We bottle it in Peshawar
+              and deliver it across Pakistan, one home at a time.
             </p>
             <p className="text-gray-600 leading-relaxed mb-6 text-sm">
-              Every drop of CHILLSIP carries the richness of natural minerals,
-              carefully preserved from source to bottle. We are not just a water
-              brand — we are a commitment to health, purity, and community.
+              Every drop carries the natural minerals from our source, kept
+              intact from bottle to your hand. For us this is about more than
+              water. It is about quality, trust and the people we serve.
             </p>
 
             {/* Pills */}

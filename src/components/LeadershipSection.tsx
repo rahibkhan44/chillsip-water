@@ -34,10 +34,10 @@ export default function LeadershipSection() {
         </motion.div>
       </div>
 
-      {/* Founder block — full bleed cinematic */}
+      {/* Founder block, full bleed cinematic */}
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-14 lg:pb-20">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 items-end">
-          {/* Founder image — tall, no card, soft bottom fade into section bg */}
+          {/* Founder image, tall, no card, soft bottom fade into section bg */}
           <motion.div
             initial={{ opacity: 0, x: -40 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -47,8 +47,8 @@ export default function LeadershipSection() {
           >
             <div className="relative w-full max-w-[480px] mx-auto lg:mx-0 aspect-[4/5] overflow-hidden">
               <Image
-                src="/founder-portrait.jpg"
-                alt="Ahmad Alam — Founder & Chief Executive Officer of CHILLSIP Mineral Water"
+                src="/founder.jpeg"
+                alt="Ahmad Alam, Founder & Chief Executive Officer of CHILLSIP Mineral Water"
                 fill
                 className="object-cover object-center"
                 priority
@@ -59,7 +59,7 @@ export default function LeadershipSection() {
             </div>
           </motion.div>
 
-          {/* Statement — larger flowing body, big tracked name */}
+          {/* Statement, larger flowing body, big tracked name */}
           <motion.div
             initial={{ opacity: 0, x: 40 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -70,20 +70,17 @@ export default function LeadershipSection() {
             <Quote className="w-10 h-10 text-[#00D4FF]/40 mb-6" />
 
             <p className="text-white/90 text-lg lg:text-xl leading-[1.7] mb-5 font-light">
-              At CHILLSIP, our mission transcends commercial success — it is
-              rooted in the pursuit of purity, responsible innovation, and a
-              commitment to community. We believe everyone in Pakistan deserves
-              access to truly refreshing hydration.
+              I started CHILLSIP with one goal: to make sure every family in
+              Pakistan can drink water they trust. Clean water should not be a
+              luxury, and it should not taste like a compromise.
             </p>
             <p className="text-white/65 text-base lg:text-lg leading-[1.7] mb-10 font-light">
-              We aspire to position CHILLSIP as a benchmark of quality and trust
-              — demonstrating that entrepreneurship, when guided by purpose and
-              principle, can serve as a catalyst for meaningful progress. Our
-              commitment is not merely to build a brand, but to cultivate a
-              legacy that inspires future generations.
+              We bottle our water in Peshawar with care, give back to the
+              communities around us, and we are just getting started. Thank you
+              for being part of the journey.
             </p>
 
-            {/* Signature block — big, tracked, Aquative-style */}
+            {/* Signature block, big tracked Aquative-style */}
             <div className="border-l-2 border-[#00D4FF] pl-6">
               <p className="font-black text-white text-2xl sm:text-3xl tracking-[0.15em] uppercase leading-tight">
                 Ahmad Alam

@@ -29,7 +29,7 @@ export default function HeroSection() {
       <div className="absolute inset-0">
         <Image
           src="/Screenshot_1.png"
-          alt="CHILLSIP premium mineral water bottle in a cool blue water splash — pure, crisp and refreshing hydration from Peshawar, Pakistan"
+          alt="CHILLSIP premium mineral water bottle in a cool blue water splash, pure crisp and refreshing hydration from Peshawar, Pakistan"
           fill
           className="object-cover object-center"
           priority
@@ -96,8 +96,8 @@ export default function HeroSection() {
             transition={{ duration: 0.7, delay: 0.5 }}
             className="text-lg sm:text-xl text-white/75 max-w-lg mx-auto lg:mx-0 mb-8 leading-relaxed"
           >
-            Taste the Refreshment — Crystal-clear mineral water, packed with
-            natural minerals, sourced and purified for peak hydration.
+            Crystal-clear mineral water, packed with natural minerals.
+            Sourced and purified for peak hydration.
           </motion.p>
 
           {/* Rating */}
@@ -153,7 +153,7 @@ export default function HeroSection() {
             <div className="absolute inset-0 rounded-full bg-[#0099FF]/20 blur-3xl scale-90" />
             <Image
               src="/Screenshot_12.png"
-              alt="CHILLSIP Mineral Water bottle — natural minerals, zero additives, sourced from Peshawar Pakistan"
+              alt="CHILLSIP Mineral Water bottle with natural minerals and zero additives, sourced from Peshawar Pakistan"
               width={400}
               height={500}
               className="relative z-10 drop-float object-contain w-full"

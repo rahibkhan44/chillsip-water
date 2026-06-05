@@ -70,8 +70,8 @@ export default function ContactSection() {
             Get Your <span className="text-[#0099FF]">CHILLSIP</span> Today
           </h2>
           <p className="text-gray-500 max-w-xl mx-auto text-sm">
-            Ordering is simple — tap the button below and send us a WhatsApp message.
-            We will confirm and deliver right to your door.
+            Ordering is simple. Tap the button below, send us a WhatsApp
+            message and we will deliver to your door.
           </p>
         </motion.div>
 
@@ -101,7 +101,7 @@ export default function ContactSection() {
               Chat &amp; Order on WhatsApp
             </Button>
             <p className="text-white/30 text-[10px] mt-3">
-              Tap to open WhatsApp — we reply within minutes
+              Tap to open WhatsApp. We usually reply within minutes.
             </p>
           </div>
         </motion.div>

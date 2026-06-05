@@ -65,7 +65,7 @@ export default function ProductsSection() {
               <div className="absolute inset-0 rounded-full bg-gradient-to-b from-[#0099FF]/20 to-[#00D4FF]/10 blur-3xl" />
               <Image
                 src="/Screenshot_3.png"
-                alt="CHILLSIP Mineral Water 1.5L bottle — premium drinking water with natural calcium, magnesium and potassium"
+                alt="CHILLSIP Mineral Water 1.5L bottle, premium drinking water with natural calcium, magnesium and potassium"
                 width={420}
                 height={520}
                 className="relative z-10 w-full max-w-sm object-contain drop-shadow-2xl"

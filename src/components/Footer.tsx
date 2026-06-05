@@ -60,8 +60,8 @@ export default function Footer() {
               </span>
             </div>
             <p className="text-white/55 text-sm leading-relaxed max-w-xs mb-6">
-              Pure mineral water from the heart of Peshawar. Crisp, refreshing,
-              and packed with natural minerals — taste the chill in every sip.
+              Pure mineral water from Peshawar. Crisp, refreshing and packed
+              with natural minerals. Taste the chill in every sip.
             </p>
             {/* Social icons */}
             <div className="flex gap-3">

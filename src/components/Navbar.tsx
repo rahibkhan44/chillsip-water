@@ -12,6 +12,7 @@ const navLinks = [
   { href: "#benefits", label: "Benefits" },
   { href: "#leadership", label: "Leadership" },
   { href: "#stockists", label: "Stockists" },
+  { href: "#faq", label: "FAQ" },
   { href: "#contact", label: "Contact" },
 ];
 

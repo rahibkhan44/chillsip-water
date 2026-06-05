@@ -67,7 +67,7 @@ export default function BenefitsSection() {
           </h2>
           <p className="text-white/60 max-w-xl mx-auto text-sm">
             Packed with natural minerals, CHILLSIP does more than quench your
-            thirst — it fuels your body from the inside out.
+            thirst. It keeps your body running at its best.
           </p>
         </motion.div>
 
@@ -84,7 +84,7 @@ export default function BenefitsSection() {
             <div className="relative rounded-3xl overflow-hidden shadow-2xl shadow-blue-900/40">
               <Image
                 src="/Screenshot_9.png"
-                alt="Health benefits of drinking CHILLSIP mineral water daily — hydration, electrolytes, skin health and physical performance"
+                alt="Health benefits of drinking CHILLSIP mineral water daily including hydration, electrolytes, skin health and physical performance"
                 width={480}
                 height={560}
                 className="w-full object-cover"

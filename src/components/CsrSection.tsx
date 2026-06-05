@@ -29,13 +29,13 @@ export default function CsrSection() {
             Community
           </span>
           <h2 className="text-3xl sm:text-4xl font-black text-[#001A3A] mb-3">
-            More Than Water —
+            More Than Water.
             <br />
             <span className="text-[#0099FF]">A Mission.</span>
           </h2>
           <p className="text-gray-500 max-w-2xl mx-auto text-sm">
-            At CHILLSIP, we believe clean water is not a privilege — it is a right.
-            Our donation program brings life-changing water to those who need it most.
+            Clean water is a right, not a luxury. Through our donation program
+            we deliver water to people who need it most.
           </p>
         </motion.div>
 
@@ -67,9 +67,9 @@ export default function CsrSection() {
                   Water Donation
                 </h3>
                 <p className="text-white/70 text-sm leading-relaxed mb-4">
-                  Bringing water to the people of Tirah Valley — a remote community
-                  in Khyber Pakhtunkhwa where access to clean water remains
-                  a daily challenge. Every bottle you buy helps us give back.
+                  We bring water to Tirah Valley, a remote part of Khyber
+                  Pakhtunkhwa where clean water is still hard to find. Every
+                  bottle you buy helps us give back.
                 </p>
                 <Button className="bg-gradient-to-r from-[#0047AB] to-[#0099FF] text-white font-bold px-6 py-2.5 rounded-full hover:from-[#0055CC] hover:to-[#00AAFF] shadow-md hover:scale-105 transition-all duration-300 text-sm">
                   Learn About Our Mission

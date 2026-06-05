@@ -7,6 +7,7 @@ import LeadershipSection from "@/components/LeadershipSection";
 import CsrSection from "@/components/CsrSection";
 import StockistsSection from "@/components/StockistsSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
+import FaqSection from "@/components/FaqSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 import FloatingButtons from "@/components/FloatingButtons";
@@ -23,6 +24,7 @@ export default function Home() {
       <CsrSection />
       <StockistsSection />
       <TestimonialsSection />
+      <FaqSection />
       <ContactSection />
       <Footer />
       <FloatingButtons />
