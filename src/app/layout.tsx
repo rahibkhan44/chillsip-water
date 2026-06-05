@@ -16,7 +16,7 @@ const poppins = Poppins({
   display: "swap",
 });
 
-const SITE_URL = "https://chillsip.vercel.app";
+const SITE_URL = "https://chillsip-water.vercel.app";
 const SITE_NAME = "CHILLSIP Mineral Water";
 const TELEPHONE = "+92-345-5928122";
 const WHATSAPP = "https://wa.me/923455928122";
